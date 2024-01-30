@@ -1,0 +1,14 @@
+{
+	"name": "YouTubeShortsRedirector",
+	"description": "Redirects from youtube shorts to video by click",
+	"version": "0.1",
+	"manifest_version": 3,
+	"icons": {},
+	"action": {
+		"default_title": "Click to redirect to video"
+	},
+	"permissions": ["activeTab", "scripting"],
+	"background": {
+		"service_worker": "background.js"
+	}
+}
